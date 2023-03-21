@@ -19,8 +19,8 @@ function Calculator() {
   });
 
   const Clear = (() => {
-    const value = data.slice( 0, -1 );
-    setData( value );
+    const value = data.slice(0, -1);
+    setData(value);
   });
 
   return (
@@ -52,14 +52,14 @@ function Calculator() {
               <div > <button className=" rounded-pill grid-item" name='0' onClick={ClickBtn} > 0</button></div>
               <div > <button className=" rounded-pill grid-item " name='.' onClick={ClickBtn} > .</button></div>
               <div > <button className=" rounded-pill grid-item bg-primary" name='/' onClick={ClickBtn} > /</button></div>
-             
+
 
 
             </div>
             <div className='Endkeys'>
               <div > <button className="rounded-pill grid-item bg-primary" name='=' onClick={Calculate} > =</button></div>
               <div > <button className="rounded-pill grid-item bg-danger" name='C' onClick={Clear} > C </button></div>
-             
+
 
             </div>
           </div>
