@@ -27,7 +27,7 @@ function Calculator() {
     <>
       <div className=" container maindiv d-flex justify-content-center">
         <div className="row">
-          <div className=" second_div">
+          <div className=" second_div mt-3">
             <h2 className='text-center'> Calculator </h2>
             <div className="display ">
               <form action="">
